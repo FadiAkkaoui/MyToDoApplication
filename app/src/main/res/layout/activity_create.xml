@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".CreateActivity">
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your new list"
+        android:textStyle="bold"
+        android:textSize="40sp">
+
+    </TextView>
+
+
+    <EditText
+        android:background="@drawable/addnotes_list"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#ffffff"
+        android:id="@+id/insertsubject"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/subject"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:background="@drawable/addnotes_list"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#ffffff"
+        android:id="@+id/inserttodo"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/To_Do"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:background="@drawable/addnotes_list"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#ffffff"
+        android:id="@+id/insertdate"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/deadline"
+        android:paddingLeft="5dp" />
+
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login"
+        android:textColor="@color/cardview_light_background"
+        android:onClick="btnAdd_Click"
+        android:text="@string/Add" />
+
+</LinearLayout>

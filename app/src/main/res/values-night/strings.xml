@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyToDoApplication</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="Login">Login</string>
+    <string name="subject">School Subject</string>
+    <string name="create">Create</string>
+    <string name="Add">Add</string>
+    <string name="history">History</string>
+    <string name="delete">Delete all notes</string>
+    <string name="to_do">To do</string>
+    <string name="to_do_school_list">My to do school list</string>
+    <string name="To_Do">To do</string>
+    <string name="home">Home</string>
+    <string name="last_date">Last date</string>
+    <string name="enable_darkmode">Enable darkmode</string>
+    <string name="option">Option</string>
+    <string name="back">Back</string>
+</resources>
